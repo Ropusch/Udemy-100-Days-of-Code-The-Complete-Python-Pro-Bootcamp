@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="finished first part of the day">
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="naming some files">
+      <change afterPath="$PROJECT_DIR$/day_26/nato_phonetic_alphabet.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_25/us_states_game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_25/us_states_game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_26/main_26.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_26/main_26.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.squirells.executor": "Run",
-    "Python.squirrels.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_26.executor&quot;: &quot;Run&quot;,
+    &quot;Python.squirells.executor&quot;: &quot;Run&quot;,
+    &quot;Python.squirrels.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_26" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_25\us_states_game" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_25" />
     </key>
@@ -81,22 +84,51 @@
       <option name="project" value="LOCAL" />
       <updated>1763753079041</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished day 25">
+      <option name="closed" value="true" />
+      <created>1763757743081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763757743081</updated>
+    </task>
+    <task id="LOCAL-00004" summary="naming some files">
+      <option name="closed" value="true" />
+      <created>1763757869367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763757869367</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first upload" />
     <MESSAGE value="finished first part of the day" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished first part of the day" />
+    <MESSAGE value="finished day 25" />
+    <MESSAGE value="naming some files" />
+    <option name="LAST_COMMIT_MESSAGE" value="naming some files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/day_25/us_states_game/main.py</url>
+          <url>file://$PROJECT_DIR$/day_25/us_states_game/main_25.1.py</url>
           <line>31</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

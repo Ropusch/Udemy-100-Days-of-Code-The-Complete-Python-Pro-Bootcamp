@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="finished day 26 - it was really easy, because I knew list comprehension before">
-      <change afterPath="$PROJECT_DIR$/day_27/Other_Tkinter_Widgets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_27/functions_27.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_27/main_27.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_27/miles_to_km_converter.py" afterDir="false" />
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="finished day 27">
+      <change afterPath="$PROJECT_DIR$/day_28/main_28.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_28/tomato.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_26/main_26.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_26/main_26.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
     "Python.main.executor": "Run",
     "Python.main_26.executor": "Run",
     "Python.main_27.executor": "Run",
+    "Python.main_28.executor": "Run",
     "Python.miles_to_km_converter.executor": "Run",
     "Python.squirells.executor": "Run",
     "Python.squirrels.executor": "Run",
@@ -55,6 +53,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_28" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_27" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_26" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_25\us_states_game" />
@@ -117,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763812786787</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finished day 27">
+      <option name="closed" value="true" />
+      <created>1763819206463</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763819206463</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -140,7 +147,8 @@
     <MESSAGE value="finished day 25" />
     <MESSAGE value="naming some files" />
     <MESSAGE value="finished day 26 - it was really easy, because I knew list comprehension before" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished day 26 - it was really easy, because I knew list comprehension before" />
+    <MESSAGE value="finished day 27" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished day 27" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

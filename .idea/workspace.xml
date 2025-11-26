@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="finished day 27">
-      <change afterPath="$PROJECT_DIR$/day_28/main_28.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_28/tomato.png" afterDir="false" />
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="finished day 28">
+      <change afterPath="$PROJECT_DIR$/day_29/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_29/main_29.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_29/password_manager.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +44,7 @@
     "Python.main_26.executor": "Run",
     "Python.main_27.executor": "Run",
     "Python.main_28.executor": "Run",
+    "Python.main_29.executor": "Run",
     "Python.miles_to_km_converter.executor": "Run",
     "Python.squirells.executor": "Run",
     "Python.squirrels.executor": "Run",
@@ -53,11 +55,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_29" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_28" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_27" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_26" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_25\us_states_game" />
-      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_25" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -124,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763819206463</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finished day 28">
+      <option name="closed" value="true" />
+      <created>1763906333495</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763906333495</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -148,7 +158,8 @@
     <MESSAGE value="naming some files" />
     <MESSAGE value="finished day 26 - it was really easy, because I knew list comprehension before" />
     <MESSAGE value="finished day 27" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished day 27" />
+    <MESSAGE value="finished day 28" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished day 28" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -157,6 +168,11 @@
           <url>file://$PROJECT_DIR$/day_25/us_states_game/main_25.1.py</url>
           <line>31</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day_29/main_29.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

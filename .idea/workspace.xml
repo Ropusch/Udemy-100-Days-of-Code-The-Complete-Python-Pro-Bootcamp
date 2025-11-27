@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="finished day 28">
-      <change afterPath="$PROJECT_DIR$/day_29/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_29/main_29.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_29/password_manager.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_30/main_30.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_30/nato_alphabet_again.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_30/nato_phonetic_alphabet.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_29/main_29.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_29/main_29.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_29/password_manager.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,9 @@
     "Python.main_27.executor": "Run",
     "Python.main_28.executor": "Run",
     "Python.main_29.executor": "Run",
+    "Python.main_30.executor": "Run",
     "Python.miles_to_km_converter.executor": "Run",
+    "Python.nato_alphabet_again.executor": "Run",
     "Python.squirells.executor": "Run",
     "Python.squirrels.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,11 +59,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_30" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_29" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_28" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_27" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_26" />
-      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_25\us_states_game" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -171,7 +175,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day_29/main_29.py</url>
-          <line>78</line>
+          <line>115</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import random
 import pyperclip
+import json
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
@@ -48,13 +49,46 @@ def add_password():
     if not is_ok:
         return
 
-    website_entry.delete(0, END)
-    username_entry.delete(0, END)
-    password_entry.delete(0, END)
-    website_entry.focus()
+    new_data = {
+        website: {
+            "username": username,
+            "password": password
+        }
+    }
+    try:
+        with open("password_manager.json", "r") as data_file:
+            data = json.load(data_file)
+            data.update(new_data)
+    except FileNotFoundError:
+        with open("password_manager.json", "w") as data_file:
+            json.dump(new_data, data_file, indent=4)
+    else:
+        with open("password_manager.json", "w") as data_file:
+            json.dump(data, data_file, indent=4)
+    finally:
+        website_entry.delete(0, END)
+        password_entry.delete(0, END)
+        website_entry.focus()
 
-    with open("password_manager.txt", "a") as file:
-        file.write(f"{website} | {username} | {password}\n")
+# ---------------------------- SEARCH PASSWORD ------------------------------- #
+def search():
+    website = website_entry.get()
+
+    if website == "":
+        messagebox.showinfo(title="Error", message="You just search for empty website")
+        return
+
+    try:
+        with open("password_manager.json", "r") as data_file:
+            data = json.load(data_file)
+    except FileNotFoundError:
+        messagebox.showinfo(title="Error", message="There is no websites stored yet.")
+    else:
+        if website in data.keys():
+            messagebox.showinfo(title=website, message=f"username: {data[website]['username']}\n"
+                                                       f"password: {data[website]['password']}")
+        else:
+            messagebox.showinfo(title=website, message=f"There is no such website as {website} stored yet.")
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -70,9 +104,12 @@ canvas.grid(row=0, column=1)
 
 website_label = Label(text="Website:")
 website_label.grid(row=1, column=0)
-website_entry = Entry(width=52)
-website_entry.grid(row=1, column=1, columnspan=2)
+website_entry = Entry(width=33)
+website_entry.grid(row=1, column=1)
 website_entry.focus()
+
+website_button = Button(text="Search", width=15, command=search)
+website_button.grid(row=1, column=2)
 
 username_label = Label(text="Email/Username:")
 username_label.grid(row=2, column=0)

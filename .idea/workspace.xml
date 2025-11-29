@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="finished day 28">
-      <change afterPath="$PROJECT_DIR$/day_30/main_30.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_30/nato_alphabet_again.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_30/nato_phonetic_alphabet.csv" afterDir="false" />
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/day_31/french_words.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_31/images/card_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_31/images/card_front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_31/images/flip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_31/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_31/images/wrong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_31/main_31.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_29/main_29.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_29/main_29.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_29/password_manager.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
     "Python.main_28.executor": "Run",
     "Python.main_29.executor": "Run",
     "Python.main_30.executor": "Run",
+    "Python.main_31.executor": "Run",
     "Python.miles_to_km_converter.executor": "Run",
     "Python.nato_alphabet_again.executor": "Run",
     "Python.squirells.executor": "Run",
@@ -59,11 +62,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_31\images" />
+      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_31" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_30" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_29" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_28" />
-      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_27" />
-      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_26" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -138,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763906333495</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finished day 30">
+      <option name="closed" value="true" />
+      <created>1764276694975</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764276694975</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added json file for password manager to git">
+      <option name="closed" value="true" />
+      <created>1764276868390</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764276868390</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -163,7 +182,9 @@
     <MESSAGE value="finished day 26 - it was really easy, because I knew list comprehension before" />
     <MESSAGE value="finished day 27" />
     <MESSAGE value="finished day 28" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished day 28" />
+    <MESSAGE value="finished day 30" />
+    <MESSAGE value="added json file for password manager to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="added json file for password manager to git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -177,6 +198,11 @@
           <url>file://$PROJECT_DIR$/day_29/main_29.py</url>
           <line>115</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day_31/main_31.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

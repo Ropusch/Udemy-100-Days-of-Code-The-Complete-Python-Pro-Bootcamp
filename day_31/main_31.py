@@ -2,6 +2,7 @@ from tkinter import *
 import pandas as pd
 import random
 
+
 BACKGROUND_COLOR = "#B1DDC6"
 
 # -------------------------------- GETTING DATA ------------------------------------ #
@@ -39,6 +40,7 @@ def next_card(knew: bool):
     canvas.itemconfig(language_text, text=language_learn, fill="black")
     canvas.itemconfig(meaning_text, text=current_card[language_learn], fill="black")
     canvas.itemconfig(card_image, image=card_front)
+
 
 def flip_card():
     if FINISHED:

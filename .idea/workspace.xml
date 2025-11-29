@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day_31/french_words.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31/images/card_back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31/images/card_front.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31/images/flip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31/images/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31/images/wrong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_31/main_31.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="finished day_31">
+      <change beforePath="$PROJECT_DIR$/day_31/main_31.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_31/main_31.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764276868390</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finished day_31">
+      <option name="closed" value="true" />
+      <created>1764449107183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764449107183</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -184,7 +185,8 @@
     <MESSAGE value="finished day 28" />
     <MESSAGE value="finished day 30" />
     <MESSAGE value="added json file for password manager to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="added json file for password manager to git" />
+    <MESSAGE value="finished day_31" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished day_31" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -201,7 +203,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day_31/main_31.py</url>
-          <line>4</line>
+          <line>5</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

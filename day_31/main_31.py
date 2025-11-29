@@ -13,7 +13,7 @@ except FileNotFoundError:
     df = pd.read_csv("french_words.csv")
 
 language_learn = df.columns.values.tolist()[0]
-language_known = df.columns.values.tolist()[0]
+language_known = df.columns.values.tolist()[1]
 
 to_learn = df.to_dict(orient="records")
 

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="finished day_31">
-      <change beforePath="$PROJECT_DIR$/day_31/main_31.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_31/main_31.py" afterDir="false" />
-    </list>
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="some little changes with day_31" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764449107183</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="some little changes with day_31">
+      <option name="closed" value="true" />
+      <created>1764449239561</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764449239561</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -186,7 +192,8 @@
     <MESSAGE value="finished day 30" />
     <MESSAGE value="added json file for password manager to git" />
     <MESSAGE value="finished day_31" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished day_31" />
+    <MESSAGE value="some little changes with day_31" />
+    <option name="LAST_COMMIT_MESSAGE" value="some little changes with day_31" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

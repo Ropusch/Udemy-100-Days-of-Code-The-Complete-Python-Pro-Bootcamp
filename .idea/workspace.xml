@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="some more little changes with day_31">
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="first half od day 32">
       <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/birthdays.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/letters_template/letter_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/letters_template/letter_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/letters_template/letter_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/letter_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/letter_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/letter_3.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32/date_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32/quotes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32/teresa.kling.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +44,7 @@
     "Python.date_time.executor": "Run",
     "Python.functions_27.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.main_25.executor": "Run",
     "Python.main_26.executor": "Run",
     "Python.main_27.executor": "Run",
     "Python.main_28.executor": "Run",
@@ -65,8 +62,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_32\birthday wisher\letters_template" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_32\birthday wisher" />
+      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_32\birthday wisher\letters_template" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_32" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_31\images" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_31" />
@@ -184,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764449701462</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="first half od day 32">
+      <option name="closed" value="true" />
+      <created>1773500892408</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1773500892408</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -214,7 +219,8 @@
     <MESSAGE value="finished day_31" />
     <MESSAGE value="some little changes with day_31" />
     <MESSAGE value="some more little changes with day_31" />
-    <option name="LAST_COMMIT_MESSAGE" value="some more little changes with day_31" />
+    <MESSAGE value="first half od day 32" />
+    <option name="LAST_COMMIT_MESSAGE" value="first half od day 32" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

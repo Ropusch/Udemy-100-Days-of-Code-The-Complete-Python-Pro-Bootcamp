@@ -1,0 +1,4 @@
+"Service","Name","Username","Password","Hostname","Port","Security"
+"SMTP","Teresa Kling","teresa.kling@ethereal.email","u2Mvsrc12RtK2ddP5r","smtp.ethereal.email",587,"STARTTLS"
+"IMAP","Teresa Kling","teresa.kling@ethereal.email","u2Mvsrc12RtK2ddP5r","imap.ethereal.email",993,"TLS"
+"POP3","Teresa Kling","teresa.kling@ethereal.email","u2Mvsrc12RtK2ddP5r","pop3.ethereal.email",995,"TLS"

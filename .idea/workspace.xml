@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="first half od day 32">
-      <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/birthdays.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/letter_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/letter_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/letter_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_32/birthday wisher/main.py" afterDir="false" />
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="bday wisher project done">
+      <change afterPath="$PROJECT_DIR$/day_33/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_33/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_33/quote_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_33/quote_machine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,7 @@
     "Python.main_31.executor": "Run",
     "Python.miles_to_km_converter.executor": "Run",
     "Python.nato_alphabet_again.executor": "Run",
+    "Python.quote_machine.executor": "Run",
     "Python.squirells.executor": "Run",
     "Python.squirrels.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -62,11 +62,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_33" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_32\birthday wisher" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_32\birthday wisher\letters_template" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_32" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_31\images" />
-      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_31" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -189,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773500892408</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="bday wisher project done">
+      <option name="closed" value="true" />
+      <created>1773504743447</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1773504743447</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -220,7 +228,8 @@
     <MESSAGE value="some little changes with day_31" />
     <MESSAGE value="some more little changes with day_31" />
     <MESSAGE value="first half od day 32" />
-    <option name="LAST_COMMIT_MESSAGE" value="first half od day 32" />
+    <MESSAGE value="bday wisher project done" />
+    <option name="LAST_COMMIT_MESSAGE" value="bday wisher project done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

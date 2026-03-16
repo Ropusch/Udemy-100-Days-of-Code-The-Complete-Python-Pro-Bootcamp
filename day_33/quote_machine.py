@@ -3,7 +3,7 @@ import requests
 
 
 url = "https://api.api-ninjas.com/v2/randomquotes?categories=success,wisdom"
-headers = {"X-Api-Key": "EBm01iLlpEjoU63yN2eNs61EPMr1eQqPHp2gQLm1"}
+headers = {"X-Api-Key": "***************************"}
 #api from: https://api-ninjas.com/api/quotes
 
 

@@ -1,11 +1,15 @@
 from tkinter import *
 import requests
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+api_key = os.getenv("QUOTES_API_KEY")
 
 url = "https://api.api-ninjas.com/v2/randomquotes?categories=success,wisdom"
-headers = {"X-Api-Key": "***************************"}
-#api from: https://api-ninjas.com/api/quotes
-
+headers = {"X-Api-Key": api_key}
+# api from: https://api-ninjas.com/api/quotes
 
 def get_quote():
     response = requests.get(url=url, headers=headers)
@@ -22,7 +26,6 @@ def get_quote():
         canvas.itemconfig(quote_text, text=res, font=("Arial", 30, "bold"))
 
 
-
 window = Tk()
 window.title("Quote machine")
 window.config(padx=50, pady=50)
@@ -36,7 +39,6 @@ canvas.grid(row=0, column=0)
 kanye_img = PhotoImage(file="quote_button.png")
 kanye_button = Button(image=kanye_img, highlightthickness=0, command=get_quote)
 kanye_button.grid(row=1, column=0)
-
 
 
 window.mainloop()

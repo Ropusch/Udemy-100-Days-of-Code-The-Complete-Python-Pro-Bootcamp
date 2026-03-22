@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="day 34 finished!">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="adding .gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_33/quote_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_33/quote_machine.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     "Python.quote_machine.executor": "Run",
     "Python.squirells.executor": "Run",
     "Python.squirrels.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.ui.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -229,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773764901414</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="adding .gitignore">
+      <option name="closed" value="true" />
+      <created>1774217428268</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1774217428268</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -265,7 +275,8 @@
     <MESSAGE value="finished day 33" />
     <MESSAGE value="small change" />
     <MESSAGE value="day 34 finished!" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 34 finished!" />
+    <MESSAGE value="adding .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

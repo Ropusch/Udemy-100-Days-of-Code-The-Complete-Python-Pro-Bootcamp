@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="small change">
-      <change afterPath="$PROJECT_DIR$/day_34/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34/images/false.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34/images/true.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34/question_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34/quiz_brain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_34/ui.py" afterDir="false" />
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="day 34 finished!">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.Other_Tkinter_Widgets.executor": "Run",
     "Python.data.executor": "Run",
     "Python.date_time.executor": "Run",
@@ -62,7 +57,7 @@
     "Python.ui.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "Errors"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -226,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773663525925</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="day 34 finished!">
+      <option name="closed" value="true" />
+      <created>1773764901414</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1773764901414</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -261,7 +264,8 @@
     <MESSAGE value="first half of day 33 - quote machine" />
     <MESSAGE value="finished day 33" />
     <MESSAGE value="small change" />
-    <option name="LAST_COMMIT_MESSAGE" value="small change" />
+    <MESSAGE value="day 34 finished!" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 34 finished!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

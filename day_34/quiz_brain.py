@@ -1,5 +1,5 @@
 import html
-
+# to decode HTML entities in Python string
 
 class QuizBrain:
 

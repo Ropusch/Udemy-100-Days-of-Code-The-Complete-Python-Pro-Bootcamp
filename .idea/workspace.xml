@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="adding .gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="added comment">
+      <change afterPath="$PROJECT_DIR$/day_35/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_35/weather_forecast.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_33/quote_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_33/quote_machine.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +57,10 @@
     "Python.squirrels.executor": "Run",
     "Python.test.executor": "Run",
     "Python.ui.executor": "Run",
+    "Python.weather_forecast.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -239,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774217428268</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="modification of day 33 to take api_key from .env file">
+      <option name="closed" value="true" />
+      <created>1774218973851</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1774218973851</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added comment">
+      <option name="closed" value="true" />
+      <created>1774219077734</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1774219077734</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -276,7 +293,9 @@
     <MESSAGE value="small change" />
     <MESSAGE value="day 34 finished!" />
     <MESSAGE value="adding .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding .gitignore" />
+    <MESSAGE value="modification of day 33 to take api_key from .env file" />
+    <MESSAGE value="added comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="added comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

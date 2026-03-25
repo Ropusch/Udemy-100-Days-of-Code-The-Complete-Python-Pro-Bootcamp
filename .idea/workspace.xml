@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="finished day 35">
-      <change afterPath="$PROJECT_DIR$/day_36/main.py" afterDir="false" />
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="day 36 without twilio">
+      <change afterPath="$PROJECT_DIR$/day_37/habit_tracker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_35/weather_forecast.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_35/weather_forecast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_36/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_36/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,34 +36,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python.Other_Tkinter_Widgets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.date_time.executor&quot;: &quot;Run&quot;,
-    &quot;Python.functions_27.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_25.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_26.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_27.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_28.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_29.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_30.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_31.executor&quot;: &quot;Run&quot;,
-    &quot;Python.miles_to_km_converter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.nato_alphabet_again.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quote_machine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.squirells.executor&quot;: &quot;Run&quot;,
-    &quot;Python.squirrels.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.weather_forecast.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.Other_Tkinter_Widgets.executor": "Run",
+    "Python.data.executor": "Run",
+    "Python.date_time.executor": "Run",
+    "Python.functions_27.executor": "Run",
+    "Python.habit_tracker.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_25.executor": "Run",
+    "Python.main_26.executor": "Run",
+    "Python.main_27.executor": "Run",
+    "Python.main_28.executor": "Run",
+    "Python.main_29.executor": "Run",
+    "Python.main_30.executor": "Run",
+    "Python.main_31.executor": "Run",
+    "Python.miles_to_km_converter.executor": "Run",
+    "Python.nato_alphabet_again.executor": "Run",
+    "Python.quote_machine.executor": "Run",
+    "Python.squirells.executor": "Run",
+    "Python.squirrels.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.ui.executor": "Run",
+    "Python.weather_forecast.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_36" />
@@ -263,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774299780267</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="day 36 without twilio">
+      <option name="closed" value="true" />
+      <created>1774469803988</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1774469803988</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -303,7 +314,8 @@
     <MESSAGE value="modification of day 33 to take api_key from .env file" />
     <MESSAGE value="added comment" />
     <MESSAGE value="finished day 35" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished day 35" />
+    <MESSAGE value="day 36 without twilio" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 36 without twilio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

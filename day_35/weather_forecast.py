@@ -12,5 +12,5 @@ for log in weather_data:
 if will_rain:
     print("it will rain in next 12 hours!")
 
-#   now you can send SMS using twilio!
+#   now you can send SMS using twilio! - done in day 36
 

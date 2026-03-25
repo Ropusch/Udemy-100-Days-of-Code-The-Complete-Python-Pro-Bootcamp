@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 
 STOCK = "NVDA"
 COMPANY_NAME = "NVIDIA Corporation"
+TRESHOLD_PERCENT = 0.1
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
@@ -28,7 +29,8 @@ news_parameters = {
     "q": COMPANY_NAME,
     "apiKey": news_api_key,
     "from": day_before_y,
-    "language": "en"
+    "language": "en",
+    "sortBy": "popularity"
 }
 
 
@@ -71,9 +73,9 @@ def sign_to_arrow(sign: int):
         return "❓"
 
 
-stock_dif = get_stock_dif()
-
-if stock_dif[1] >= 0.05:
+# stock_dif = get_stock_dif()
+stock_dif = (-1, 0.15)
+if stock_dif[1] >= TRESHOLD_PERCENT:
     news = get_news()
     message = f"{STOCK}: {sign_to_arrow(stock_dif[0])}{stock_dif[1]}%\n\n"
     for article in news:
@@ -86,6 +88,4 @@ if stock_dif[1] >= 0.05:
 
 
 ## STEP 3: Use twilio.com/docs/sms/quickstart/python
-# Send a separate message with each article's title and description to your phone number. 
-#HINT 1: Consider using a List Comprehension.
-
+# Send a separate message with each article's title and description to your phone number.

@@ -76,4 +76,5 @@ def delete_pixel():
 
 # add_pixel()
 # update_pixel()
-delete_pixel()
+# delete_pixel()
+

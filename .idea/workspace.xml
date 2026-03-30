@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="updated day 36 with Twilio!">
-      <change afterPath="$PROJECT_DIR$/day_38/main.py" afterDir="false" />
+    <list default="true" id="f6a8b6bc-0da4-4ac5-902d-9bb4eb38b9a1" name="Changes" comment="finished day 37">
+      <change afterPath="$PROJECT_DIR$/day_39/data_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_39/flight_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_39/flight_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_39/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_39/notification_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,42 +38,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python.Other_Tkinter_Widgets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.date_time.executor&quot;: &quot;Run&quot;,
-    &quot;Python.functions_27.executor&quot;: &quot;Run&quot;,
-    &quot;Python.habit_tracker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_25.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_26.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_27.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_28.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_29.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_30.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_31.executor&quot;: &quot;Run&quot;,
-    &quot;Python.miles_to_km_converter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.nato_alphabet_again.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quote_machine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.squirells.executor&quot;: &quot;Run&quot;,
-    &quot;Python.squirrels.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.weather_forecast.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.Other_Tkinter_Widgets.executor": "Run",
+    "Python.data.executor": "Run",
+    "Python.date_time.executor": "Run",
+    "Python.flight_data.executor": "Run",
+    "Python.functions_27.executor": "Run",
+    "Python.habit_tracker.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_25.executor": "Run",
+    "Python.main_26.executor": "Run",
+    "Python.main_27.executor": "Run",
+    "Python.main_28.executor": "Run",
+    "Python.main_29.executor": "Run",
+    "Python.main_30.executor": "Run",
+    "Python.main_31.executor": "Run",
+    "Python.miles_to_km_converter.executor": "Run",
+    "Python.nato_alphabet_again.executor": "Run",
+    "Python.quote_machine.executor": "Run",
+    "Python.squirells.executor": "Run",
+    "Python.squirrels.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.ui.executor": "Run",
+    "Python.weather_forecast.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_39" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_36" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_34\images" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_34" />
       <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_33" />
-      <recent name="C:\Users\tomas\PycharmProjects\Udemy days 25+\day_32\birthday wisher" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -288,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774535640893</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="finished day 37">
+      <option name="closed" value="true" />
+      <created>1774712722641</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1774712722641</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -307,7 +320,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first upload" />
     <MESSAGE value="finished first part of the day" />
     <MESSAGE value="finished day 25" />
     <MESSAGE value="naming some files" />
@@ -332,7 +344,8 @@
     <MESSAGE value="day 36 without twilio" />
     <MESSAGE value="finished day 37 (with small fixes in previous days)" />
     <MESSAGE value="updated day 36 with Twilio!" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated day 36 with Twilio!" />
+    <MESSAGE value="finished day 37" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished day 37" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
